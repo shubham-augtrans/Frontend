@@ -1,4 +1,5 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://192.168.130.75:4042',
+  apiBaseUrl: 'http://localhost:8000/api', // Your Django backend URL
+  version: '1.0.0'
 };
